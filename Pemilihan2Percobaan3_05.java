@@ -33,7 +33,6 @@ public class Pemilihan2Percobaan3_05 {
     } else
         System.out.println("Kategori Salah");
         
-
         input05.close();
     }
 }
