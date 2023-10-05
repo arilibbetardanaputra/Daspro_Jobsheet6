@@ -6,7 +6,7 @@ public class Pemilihan2Tugas1_05 {
         String jenisBuku;
         double diskon,totalDiskon;
         int jumlahBuku;
-        
+
         System.out.print("Masukkan jenis buku (kamus/novel/lainnya): ");
         jenisBuku = input05.nextLine().toLowerCase();
         
@@ -35,7 +35,7 @@ public class Pemilihan2Tugas1_05 {
         
         totalDiskon = diskon * jumlahBuku;
         
-        System.out.println("Jumlah diskon yang diberikan: " + (totalDiskon * 100) + "%");
+        System.out.println("Jumlah diskon : " + (totalDiskon * 100) + "%");
         
         input05.close();
     }
