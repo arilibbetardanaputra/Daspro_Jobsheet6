@@ -5,13 +5,17 @@ public class Pemilihan2Percobaan1_05 {
         Scanner input05 = new Scanner(System.in);
         int tahun;
         System.out.println("Masukkan tahun : ");
-        tahun=input05.nextInt();
+        tahun = input05.nextInt();
 
         if ((tahun % 4) == 0) {
-            if ((tahun % 100) !=0)
+            if ((tahun % 100) != 0 || (tahun % 400) == 0) {
                 System.out.println("Tahun Kabisat");
-        } else
+            } else {
+                System.out.println("Bukan Tahun Kabisat");
+            }
+        } else {
             System.out.println("Bukan Tahun Kabisat");
+        }
 
         input05.close();
     }
